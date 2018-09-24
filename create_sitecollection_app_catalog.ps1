@@ -1,5 +1,5 @@
-$tenantAdminSiteUrl = "https://<yoursite>-admin.sharepoint.com";
-$targetSite = "https://<yoursite>.sharepoint.com/sites/<TESTSITE>"
+$tenantAdminSiteUrl = "https://<orgname>-admin.sharepoint.com";
+$targetSite = "https://<orgname>.sharepoint.com/sites/<testsite>"
 $adminUserName = "<adminlogin>";
 $adminPassword = "<adminpassword>";
 $securePassword = ConvertTo-SecureString $adminPassword -AsPlainText -Force
